@@ -121,7 +121,7 @@ const PaymentsPage = ({ username }) => {
             {``}</Script>
 
         <div className='cover w-full relative'>
-            <img className='object-contain w-full' src={currentUser.coverPic || "https://c10.patreonusercontent.com/4/patreon-media/p/campaign/4842667/452146dcfeb04f38853368f554aadde1/eyJ3IjoxOTIwLCJ3ZSI6MX0%3D/20.gif?token-hash=1Kbnq1kmdaOuXBdeATyNc6HRB1AM8eoyjiAg29yBoF4%3D&token-time=1788480000"} alt="" />
+            <img className='object-contain w-full' src={currentUser.coverPic || "/coverpage.jpeg"} alt="" />
             <div className='absolute left-1/2 -translate-x-1/2 -bottom-16 overflow-hidden border-2 border-white rounded-full'>
                 <img width={150} height={150} className='block aspect-square rounded-full object-cover' src={currentUser.profilePic || "/avatar.gif"} alt="" />
             </div>
