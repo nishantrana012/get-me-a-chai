@@ -120,7 +120,7 @@ const PaymentsPage = ({ username }) => {
         <Script>
             {``}</Script>
 
-        <div className='cover w-full relative'>
+        <div className='cover w-full relative min-h-40'>
             <img className='object-contain w-full' src={currentUser.coverPic || "/coverpage.jpeg"} alt="" />
             <div className='absolute left-1/2 -translate-x-1/2 -bottom-16 overflow-hidden border-2 border-white rounded-full'>
                 <img width={150} height={150} className='block aspect-square rounded-full object-cover' src={currentUser.profilePic || "/avatar.gif"} alt="" />
