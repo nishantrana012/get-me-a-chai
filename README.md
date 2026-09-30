@@ -38,7 +38,9 @@ Get Me A Chai is a small crowdfunding platform for creators. A creator signs in 
 1. Clone the repository and enter the project directory:
 
 	```bash
-	[git clone <your-repository-url>](https://github.com/nishantrana012/get-me-a-chai)
+	git clone https://github.com/nishantrana012/get-me-a-chai
+	```
+	```bash
 	cd get-me-a-chai
 	```
 
@@ -61,7 +63,7 @@ Get Me A Chai is a small crowdfunding platform for creators. A creator signs in 
 	```env
 	GITHUB_ID=your_github_oauth_client_id
 	GITHUB_SECRET=your_github_oauth_client_secret
-	NEXTAUTH_SECRET=replace_with_a_long_random_secret
+	MONGODB_URI=your_db_url
 	NEXT_PUBLIC_URL=http://localhost:3000
 	```
 
