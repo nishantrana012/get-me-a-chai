@@ -17,6 +17,25 @@ export default function Home() {
         <button type="button" className="text-white bg-linear-to-br from-purple-600 to-blue-500 hover:bg-linear-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5 transition-colors rounded-md cursor-pointer">Read More</button>
         </Link>
       </div>
+      <div className="flex flex-col items-center gap-3 text-sm text-gray-300">
+        <p>This is a demo website created by Nishant Kumar.</p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <a
+            href="https://github.com/nishantrana012"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-md border border-cyan-400 px-4 py-2 font-medium text-cyan-300 transition-colors hover:bg-cyan-400 hover:text-slate-950"
+          >
+            GitHub Profile
+          </a>
+          <Link
+            href="/nishantrana012"
+            className="rounded-md bg-cyan-400 px-4 py-2 font-medium text-slate-950 transition-colors hover:bg-cyan-300"
+          >
+            View Demo Profile
+          </Link>
+        </div>
+      </div>
     </div>
     <div className="min-h-0.5 bg-gray-100 opacity-20"></div>
     <div className="container mx-auto px-4 my-16">
