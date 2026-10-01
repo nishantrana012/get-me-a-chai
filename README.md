@@ -63,7 +63,7 @@ Get Me A Chai is a small crowdfunding platform for creators. A creator signs in 
 	```env
 	GITHUB_ID=your_github_oauth_client_id
 	GITHUB_SECRET=your_github_oauth_client_secret
-	MONGODB_URI=your_db_url
+	MONGO_URI=your_db_url
 	NEXT_PUBLIC_URL=http://localhost:3000
 	```
 
